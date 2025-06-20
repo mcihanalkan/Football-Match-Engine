@@ -294,7 +294,7 @@ class macOrtamAyarlayici {
         cout<<"\nHava Durumu: "<<factors.havaDurumu;
         cout<<"\nHakem Kararları: "<<factors.hakemKararlari;
         cout<<"\nTurnuva Faktörü: "<<factors.turnuva;
-        cout<<"\nTaraftar Etkisi (Ev sahibi için): "<<factors.taraftarEtkisi;    
+        cout<<"\nTaraftar Etkisi (Ev sahibi için): "<<factors.taraftarEtkisi<<"\n";    
     }
 };
 
@@ -365,27 +365,264 @@ class Game {
             cout << "- Turnuva Katsayısı:  " << turnuvaKatSayisi << endl;
             cout << "- Toplam Katsayı:   " << toplamKatSayi << endl;
             
+            // Maç için istatisikleri burada veriyoruz
             for(auto& oyuncu : takim.ilk11) {
                 if(oyuncu.pozisyon=="KL") {
-                    
+                    if(oyuncu.fifaRating>750) {
+                        
+                    } else if(oyuncu.fifaRating>740) {
+                        
+                    } else if(oyuncu.fifaRating>730) {
+                        
+                    } else if(oyuncu.fifaRating>720) {
+                        
+                    } else if(oyuncu.fifaRating>710) {
+                        
+                    } else if(oyuncu.fifaRating>700) {
+                        
+                    } else if(oyuncu.fifaRating>690) {
+                        
+                    } else if(oyuncu.fifaRating>680) {
+                        
+                    } else if(oyuncu.fifaRating<681) {
+                        
+                    }
                 } else if(oyuncu.pozisyon=="STP") {
-                    
+                    if(oyuncu.fifaRating>770) {
+                        
+                    } else if(oyuncu.fifaRating>760) {
+                        
+                    } else if(oyuncu.fifaRating>750) {
+                        
+                    } else if(oyuncu.fifaRating>740) {
+                        
+                    } else if(oyuncu.fifaRating>730) {
+                        
+                    } else if(oyuncu.fifaRating>720) {
+                        
+                    } else if(oyuncu.fifaRating>710) {
+                        
+                    } else if(oyuncu.fifaRating>700) {
+                        
+                    } else if(oyuncu.fifaRating>690) {
+                        
+                    } else if(oyuncu.fifaRating>680) {
+                        
+                    } else if(oyuncu.fifaRating<681) {
+                        
+                    }
                 } else if(oyuncu.pozisyon=="SLB") {
-                    
+                    if(oyuncu.fifaRating>770) {
+                        
+                    } else if(oyuncu.fifaRating>760) {
+                        
+                    } else if(oyuncu.fifaRating>750) {
+                        
+                    } else if(oyuncu.fifaRating>740) {
+                        
+                    } else if(oyuncu.fifaRating>730) {
+                        
+                    } else if(oyuncu.fifaRating>720) {
+                        
+                    } else if(oyuncu.fifaRating>710) {
+                        
+                    } else if(oyuncu.fifaRating>700) {
+                        
+                    } else if(oyuncu.fifaRating>690) {
+                        
+                    } else if(oyuncu.fifaRating>680) {
+                        
+                    } else if(oyuncu.fifaRating<681) {
+                        
+                    }
                 } else if(oyuncu.pozisyon=="SĞB") {
-                    
+                    if(oyuncu.fifaRating>770) {
+                        
+                    } else if(oyuncu.fifaRating>760) {
+                        
+                    } else if(oyuncu.fifaRating>750) {
+                        
+                    } else if(oyuncu.fifaRating>740) {
+                        
+                    } else if(oyuncu.fifaRating>730) {
+                        
+                    } else if(oyuncu.fifaRating>720) {
+                        
+                    } else if(oyuncu.fifaRating>710) {
+                        
+                    } else if(oyuncu.fifaRating>700) {
+                        
+                    } else if(oyuncu.fifaRating>690) {
+                        
+                    } else if(oyuncu.fifaRating>680) {
+                        
+                    } else if(oyuncu.fifaRating<681) {
+                        
+                    }
                 } else if(oyuncu.pozisyon=="DOS") {
-                    
+                    if(oyuncu.fifaRating>780) {
+                        
+                    } else if(oyuncu.fifaRating>770) {
+                        
+                    } else if(oyuncu.fifaRating>760) {
+                        
+                    } else if(oyuncu.fifaRating>750) {
+                        
+                    } else if(oyuncu.fifaRating>740) {
+                        
+                    } else if(oyuncu.fifaRating>730) {
+                        
+                    } else if(oyuncu.fifaRating>720) {
+                        
+                    } else if(oyuncu.fifaRating>710) {
+                        
+                    } else if(oyuncu.fifaRating>700) {
+                        
+                    } else if(oyuncu.fifaRating>690) {
+                        
+                    } else if(oyuncu.fifaRating>680) {
+                        
+                    } else if(oyuncu.fifaRating<681) {
+                        
+                    }
                 } else if(oyuncu.pozisyon=="GÖ") {
-                
+                    if(oyuncu.fifaRating>780) {
+                        
+                    } else if(oyuncu.fifaRating>770) {
+                        
+                    } else if(oyuncu.fifaRating>760) {
+                        
+                    } else if(oyuncu.fifaRating>750) {
+                        
+                    } else if(oyuncu.fifaRating>740) {
+                        
+                    } else if(oyuncu.fifaRating>730) {
+                        
+                    } else if(oyuncu.fifaRating>720) {
+                        
+                    } else if(oyuncu.fifaRating>710) {
+                        
+                    } else if(oyuncu.fifaRating>700) {
+                        
+                    } else if(oyuncu.fifaRating>690) {
+                        
+                    } else if(oyuncu.fifaRating>680) {
+                        
+                    } else if(oyuncu.fifaRating<681) {
+                        
+                    }
                 } else if(oyuncu.pozisyon=="OOS") {
-                    
+                    if(oyuncu.fifaRating>790) {
+                        
+                    } else if(oyuncu.fifaRating>780) {
+                        
+                    } else if(oyuncu.fifaRating>770) {
+                        
+                    } else if(oyuncu.fifaRating>760) {
+                        
+                    } else if(oyuncu.fifaRating>750) {
+                        
+                    } else if(oyuncu.fifaRating>740) {
+                        
+                    } else if(oyuncu.fifaRating>730) {
+                        
+                    } else if(oyuncu.fifaRating>720) {
+                        
+                    } else if(oyuncu.fifaRating>710) {
+                        
+                    } else if(oyuncu.fifaRating>700) {
+                        
+                    } else if(oyuncu.fifaRating>60) {
+                        
+                    } else if(oyuncu.fifaRating>680) {
+                        
+                    } else if(oyuncu.fifaRating<681) {
+                        
+                    }
                 } else if(oyuncu.pozisyon=="SLA") {
-                    
+                    if(oyuncu.fifaRating>790) {
+                        
+                    } else if(oyuncu.fifaRating>780) {
+                        
+                    } else if(oyuncu.fifaRating>770) {
+                        
+                    } else if(oyuncu.fifaRating>760) {
+                        
+                    } else if(oyuncu.fifaRating>750) {
+                        
+                    } else if(oyuncu.fifaRating>740) {
+                        
+                    } else if(oyuncu.fifaRating>730) {
+                        
+                    } else if(oyuncu.fifaRating>720) {
+                        
+                    } else if(oyuncu.fifaRating>710) {
+                        
+                    } else if(oyuncu.fifaRating>700) {
+                        
+                    } else if(oyuncu.fifaRating>60) {
+                        
+                    } else if(oyuncu.fifaRating>680) {
+                        
+                    } else if(oyuncu.fifaRating<681) {
+                        
+                    }
                 } else if(oyuncu.pozisyon=="SĞA") {
-                    
+                    if(oyuncu.fifaRating>790) {
+                        
+                    } else if(oyuncu.fifaRating>780) {
+                        
+                    } else if(oyuncu.fifaRating>770) {
+                        
+                    } else if(oyuncu.fifaRating>760) {
+                        
+                    } else if(oyuncu.fifaRating>750) {
+                        
+                    } else if(oyuncu.fifaRating>740) {
+                        
+                    } else if(oyuncu.fifaRating>730) {
+                        
+                    } else if(oyuncu.fifaRating>720) {
+                        
+                    } else if(oyuncu.fifaRating>710) {
+                        
+                    } else if(oyuncu.fifaRating>700) {
+                        
+                    } else if(oyuncu.fifaRating>60) {
+                        
+                    } else if(oyuncu.fifaRating>680) {
+                        
+                    } else if(oyuncu.fifaRating<681) {
+                        
+                    }
                 } else if(oyuncu.pozisyon=="SF") {
-                    
+                    if(oyuncu.fifaRating>790) {
+                        
+                    } else if(oyuncu.fifaRating>780) {
+                        
+                    } else if(oyuncu.fifaRating>770) {
+                        
+                    } else if(oyuncu.fifaRating>760) {
+                        
+                    } else if(oyuncu.fifaRating>750) {
+                        
+                    } else if(oyuncu.fifaRating>740) {
+                        
+                    } else if(oyuncu.fifaRating>730) {
+                        
+                    } else if(oyuncu.fifaRating>720) {
+                        
+                    } else if(oyuncu.fifaRating>710) {
+                        
+                    } else if(oyuncu.fifaRating>700) {
+                        
+                    } else if(oyuncu.fifaRating>60) {
+                        
+                    } else if(oyuncu.fifaRating>680) {
+                        
+                    } else if(oyuncu.fifaRating<681) {
+                        
+                    }
                 }
             }
         }
