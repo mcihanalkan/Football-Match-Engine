@@ -301,9 +301,11 @@ class macOrtamAyarlayici {
 class Game {
     public:
         MatchFactors factors;
+        
         Game(const MatchFactors& gelenFaktorler) {
             factors = gelenFaktorler;
         }
+        
         void macOncesiOyuncuIstatistikleriAyarlama(Takim& takim, bool evSahibiMi) {
             
             double taraftarKatSayisi=1.00;
@@ -353,6 +355,7 @@ class Game {
             } else if(factors.turnuva=="uefafinal") {
                 turnuvaKatSayisi=1.25;
             }
+            double toplamKatSayi=taraftarKatSayisi*hakemKatSayisi*havaKatSayisi*turnuvaKatSayisi;
             
              // Katsayıları ekrana yazdır
             cout << "\n[" << takim.isim << "] Takımı için katsayılar:\n";
@@ -360,6 +363,31 @@ class Game {
             cout << "- Hakem Katsayısı:    " << hakemKatSayisi << endl;
             cout << "- Hava Katsayısı:     " << havaKatSayisi << endl;
             cout << "- Turnuva Katsayısı:  " << turnuvaKatSayisi << endl;
+            cout << "- Toplam Katsayı:   " << toplamKatSayi << endl;
+            
+            for(auto& oyuncu : takim.ilk11) {
+                if(oyuncu.pozisyon=="KL") {
+                    
+                } else if(oyuncu.pozisyon=="STP") {
+                    
+                } else if(oyuncu.pozisyon=="SLB") {
+                    
+                } else if(oyuncu.pozisyon=="SĞB") {
+                    
+                } else if(oyuncu.pozisyon=="DOS") {
+                    
+                } else if(oyuncu.pozisyon=="GÖ") {
+                
+                } else if(oyuncu.pozisyon=="OOS") {
+                    
+                } else if(oyuncu.pozisyon=="SLA") {
+                    
+                } else if(oyuncu.pozisyon=="SĞA") {
+                    
+                } else if(oyuncu.pozisyon=="SF") {
+                    
+                }
+            }
         }
 };
 
